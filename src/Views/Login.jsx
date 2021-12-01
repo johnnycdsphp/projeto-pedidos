@@ -19,7 +19,7 @@ const Login = () => {
 
     var config = {
       method: "post",
-      url: "http://localhost:3000/usuarios/autenticaUsuario",
+      url: "https://projeto-pedidos-api.jelastic.saveincloud.net/usuarios/autenticaUsuario",
       headers: {
         "Content-Type": "application/json",
       },
